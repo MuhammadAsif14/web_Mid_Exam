@@ -18,3 +18,22 @@ function next(){
     
 
 }
+let count2=3;
+function prev(){
+
+
+    const bigdiv=document.getElementsByTagName("img")[0];
+    // console.log(bigdiv.src);
+    // const img=document.createElement("img");
+    if(count2===0){
+        count2=3;
+    }
+    bigdiv.src=srcs[count2]
+    count2--;
+    // bigdiv.src="./three.svg";
+    // img.classList.add("bigimage");
+    // bigdiv.append(img);
+    // console.log("clicked Next");
+    
+
+}
